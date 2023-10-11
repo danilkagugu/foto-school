@@ -1,0 +1,8 @@
+:root {
+  --c-bg-color-body: #121212;
+  --c-bg-color: #1d1d1d;
+  --c-bg-gradient: (180deg, #060707 0%, #1d1d1d 100%);
+  --c-white: #fff;
+  --c-light-brown: #bea69e;
+  --c-light-grey: rgba(255, 255, 255, 0.5);
+}
