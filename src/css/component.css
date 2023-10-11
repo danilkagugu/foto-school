@@ -1,6 +1,6 @@
 body {
   font-family: 'DM Sans', sans-serif;
-  background-color: var(--c-bg-color);
+  background-color: var(--c-bg-color-body);
   color: var(--c-white);
   font-size: 14px;
   font-weight: 400;
