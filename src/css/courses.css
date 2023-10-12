@@ -109,6 +109,7 @@
     letter-spacing: -1.92px;
   }
   .courses_transcript {
+    max-width: 381px;
     margin: 0;
     font-size: 16px;
     line-height: 1.25;
