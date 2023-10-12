@@ -34,7 +34,7 @@
   color: var(--c-light-grey);
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  background: var(--c-bg-gradient);
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
 }
 .card-nav {
   display: flex;
