@@ -6,7 +6,7 @@
   letter-spacing: -1.12px;
 }
 .title_course-sp {
-  color: var(--c-light-brown);
+  color: #bea69e;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
@@ -25,6 +25,7 @@
   justify-content: center;
 }
 .courses_list {
+  list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
@@ -33,15 +34,23 @@
 }
 
 .courses_item {
-  position: relative;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: var(--c-bg-gradient);
 }
+.card-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 28px;
+}
+.course-numeration {
+  width: 18px;
+  height: 18px;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+}
 .courses_link {
-  position: absolute;
-  top: 38px;
-  right: 38px;
   width: 32px;
   height: 32px;
   border-radius: 50%;
@@ -60,7 +69,6 @@
   line-height: 1.14;
   padding-right: 28px;
   padding-left: 28px;
-  padding-top: 28px;
   margin-bottom: 168px;
 }
 
