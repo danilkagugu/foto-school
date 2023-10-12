@@ -13,6 +13,7 @@
   letter-spacing: -1.12px;
 }
 .courses_transcript {
+  max-width: 335px;
   line-height: 1.28;
   letter-spacing: -0.28px;
   margin-bottom: 40px;
@@ -20,12 +21,10 @@
 .dec-list-cont {
   max-width: 335px;
   display: flex;
-
   justify-content: center;
 }
 .courses_list {
-  list-style-position: inside;
-  list-style-type: decimal-leading-zero;
+  list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
@@ -35,38 +34,58 @@
 
 .courses_item {
   color: var(--c-light-grey);
-  position: relative;
-  padding: 28px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: var(--c-bg-gradient);
 }
+.card-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 28px 28px;
+}
+.course-numeration {
+  width: 18px;
+  height: 18px;
+  color: rgba(255, 255, 255, 0.4);
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+}
 .courses_link {
-  position: absolute;
-  top: 28px;
-  right: 28px;
   width: 32px;
   height: 32px;
   border-radius: 50%;
   background-color: #1d1d1d;
+  cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.courses_link:hover,
+.courses_link:focus {
+  background-color: rgba(190, 166, 158, 1);
 }
 .link-style_courses {
   fill: rgba(119, 119, 119, 1);
 }
+.link-style_courses:hover,
+.link-style_courses:focus {
+  fill: rgba(255, 255, 255, 1);
+}
 .course_name {
   color: var(--c-white);
   width: 279px;
+  padding-left: 28px;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  padding-top: 42px;
   margin-bottom: 168px;
 }
 
 .course_detals {
+  margin-bottom: 28px;
+  padding-left: 28px;
+  padding-right: 28px;
   line-height: 1.28;
   letter-spacing: -0.28px;
 }
