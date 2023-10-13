@@ -15,8 +15,8 @@
 <symbol id="icon-arrow-up-right" viewBox="0 0 34 32">
 <path d="M16.127 6.678l11.784-0.368-2.408 11.541-3.876-4.619-16.127 13.532-1.624-1.935 16.127-13.532-3.876-4.619z"></path>
 </symbol>
-<symbol id="icon-star" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M16 2.667l4.12 8.347 9.213 1.347-6.667 6.493 1.573 9.173-8.24-4.333-8.24 4.333 1.573-9.173-6.667-6.493 9.213-1.347 4.12-8.347z"></path>
+<symbol id="icon-star" viewBox="0 0 20 19" fill="none">
+<path d="M10.0001 1.66667L12.5751 6.88333L18.3334 7.725L14.1667 11.7833L15.1501 17.5167L10.0001 14.8083L4.85008 17.5167L5.83341 11.7833L1.66675 7.725L7.42508 6.88333L10.0001 1.66667Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
 <symbol id="icon-arrow-right" viewBox="0 0 64 32">
     <path d="M44.444 0 64 15.396 44.444 30.792V18.063H0V12.73h44.444V.001z"/>
