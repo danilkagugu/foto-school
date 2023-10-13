@@ -1,82 +1,71 @@
+.mentors-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  text-align: start;
+  margin-bottom: 40px;
+}
 
-
-.our-mentors {
-    margin-bottom: 80px;
-  }
-  @media screen and (min-width: 768px) {
-    .our-mentors {
-      margin-bottom: 100px;
-    }
-  }
-  
+@media screen and (min-width: 768px) {
   .mentors-title {
-    color: #fff;
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
-    text-transform: capitalize;
-    text-align: start;
-    margin-bottom: 40px;
+    font-size: 48px;
+    line-height: 1.12;
+    margin-bottom: 50px;
   }
-  
-  @media screen and (min-width: 768px) {
-    .mentors-title {
-      font-size: 48px;
-      line-height: 1.12;
-      margin-bottom: 50px;
-    }
-  }
-  
-  .accent {
-    color: #bea69e;
-  }
-  
+}
+
+.accent {
+  color: #bea69e;
+}
+
+.mentors-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+@media screen and (min-width: 768px) {
   .mentors-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
+    gap: 100px;
   }
-  
-  @media screen and (min-width: 768px) {
-    .mentors-list {
-      gap: 100px;
-    }
-  }
-  
-  .mentors-foto {
-    margin-bottom: 16px;
-  }
-  
+}
+
+.mentors-foto {
+  margin-bottom: 16px;
+}
+
+.mentor-name {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  text-transform: capitalize;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
   .mentor-name {
-    color: #fff;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    text-transform: capitalize;
-    margin-bottom: 4px;
+    font-size: 28px;
+    line-height: 1.14;
   }
-  
-  @media screen and (min-width: 768px) {
-    .mentor-name {
-      font-size: 28px;
-      line-height: 1.14;
-    }
-  }
-  
+}
+
+.mentor-text {
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+}
+@media screen and (min-width: 768px) {
   .mentor-text {
-    color: rgba(255, 255, 255, 0.5);
-    text-align: center;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: -0.02em;
+    font-size: 14px;
+    line-height: 1.28;
   }
-  @media screen and (min-width: 768px) {
-    .mentor-text {
-      font-size: 14px;
-      line-height: 1.28;
-    }
-  }
+}
