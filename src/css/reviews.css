@@ -2,6 +2,18 @@
     max-width: 375px;
     padding: 20px;
 }
+@media (min-width: 768px) and (max-width: 1279.98px) {
+    .reviews-container {
+        max-width: 768px;
+        padding: 64px;
+    }
+}
+@media (min-width: 1280px) {
+    .reviews-container {
+        max-width: 1280px;
+        padding: 100px;
+    }
+}
 .reviews-list {
     display: flex;
     gap: 20px;
@@ -11,6 +23,16 @@
     border: 1px solid rgba(255, 255, 255, 0.20);
     padding: 20px;
 }
+.comment {
+    letter-spacing: -0.28px;
+}
+@media (min-width: 768px) /*and (max-width: 1279.98px) */{
+    .comment {
+        font-size: 16px;
+        line-height: 1.25;
+        letter-spacing: -0.32px;
+    }
+}
 .reviews-title {
 font-size: 28px;
 font-weight: 500;
@@ -18,13 +40,28 @@ line-height: 1.14;
 letter-spacing: -1.12px;
 margin-bottom: 40px;
 }
+@media (min-width: 768px) /*and (max-width: 1279.98px) */{
+    .reviews-title {
+        font-size: 48px;
+        line-height: 1.12;
+        margin-bottom: 50px;
+        letter-spacing: -1.92px;
+    }
+}
 .reviewer-name {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
     margin-top: 6px;
-    margin-bottom: 6px;
+
 }
+@media (min-width: 768px) /*and (max-width: 1279.98px) */{
+    .reviewer-name {
+        line-height: 1.4;
+        margin-top: 0px;
+    }
+}
+@media (max-width: 1279.98px){
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -37,6 +74,7 @@ margin-bottom: 40px;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+}
 .review-photo {
     border-radius: 50%;
     max-width: 100%;
@@ -45,13 +83,28 @@ margin-bottom: 40px;
 .reviewer-profession {
     color: rgba(255, 255, 255, 0.5);
     font-size: 12px;
-    font-weight: 400;
     line-height: 1.33;
     letter-spacing: -0.24px;
+}
+@media (min-width: 768px) /*and (max-width: 1279.98px) */{
+    .reviewer-profession {
+        font-size: 14px;
+        line-height: 1.28px;
+        letter-spacing: -0.28px;
+        margin-top: 12px;
+    }
+}
+.name-profession {
     margin-bottom: 10px;
 }
 .review-note {
     fill: #BEA69E;
+}
+@media (min-width: 768px) /*and (max-width: 1279.98px) */{
+    .review-note {
+        width: 20px;
+        height: 20px;
+    }
 }
 .review-note-empty {
     fill: #414141;
@@ -60,4 +113,16 @@ margin-bottom: 40px;
     display: flex;
     gap: 10px;
     margin-bottom: 20px;
+}
+@media (min-width: 768px) /*and (max-width: 1279.98px) */{
+    .name-profession-note {
+       display: flex;
+       gap: 273px;
+    }
+}
+@media (min-width: 1280px) {
+    .name-profession-note {
+       display: flex;
+       gap: 156px;
+    }
 }
