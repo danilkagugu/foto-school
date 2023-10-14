@@ -23,14 +23,20 @@
     border: 1px solid rgba(255, 255, 255, 0.20);
     padding: 20px;
 }
+@media (min-width: 768px) {
+    .comment-container {
+        min-width: 530px;
+}
+}
 .comment {
-    letter-spacing: -0.28px;
+    letter-spacing: -0.02em;
+    font-family: DM Sans;
+    font-style: normal;
 }
 @media (min-width: 768px) /*and (max-width: 1279.98px) */{
     .comment {
         font-size: 16px;
         line-height: 1.25;
-        letter-spacing: -0.32px;
     }
 }
 .reviews-title {
