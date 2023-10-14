@@ -31,6 +31,7 @@
   flex-shrink: 0;
   margin-left: 50px;
   margin-right: 97px;
+  fill: #fff;
 }
 
 .navigation-header {
@@ -77,16 +78,101 @@
   color: #bea69e;
 }
 
+.svg-foto {
+  display: none;
+}
 @media screen and (min-width: 1440px) {
-  .svg-header {
-    margin-right: 202px;
+  .container {
+    max-width: 1440px;
+  }
+
+  .a-svg {
+    margin-right: 209px;
   }
 
   .nav-header {
-    width: 922px;
+    width: 928px;
+  }
+
+  .header-burger {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width:1440px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .header-burger {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .nav-header {
+    width: 504px;
+  }
+
+  .btn {
+    width: 186px;
+    height: 60px;
   }
 
   .navigation-header {
-    flex-wrap: nowrap;
+    display: none;
+  }
+
+  .nav-header {
+    justify-content: space-between;
+  }
+
+  .header-burger {
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .container {
+    max-width: 320px;
+  }
+
+  .nav-header {
+    width: 335px;
+  }
+
+  .btn {
+    display: none;
+  }
+
+  .navigation-header {
+    display: none;
+  }
+
+  .a-svg {
+    margin-left: 20px;
+  }
+
+  .svg-foto {
+    display: block;
+    width: 16px;
+    height: 16px;
+  }
+
+  .aa {
+    background-color: #1d1d1d;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 7.5px;
+  }
+
+  .header-burger {
+    display: flex;
+    gap: 14px;
   }
 }
