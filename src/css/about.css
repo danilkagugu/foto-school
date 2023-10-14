@@ -1,1 +1,50 @@
+.position-about-us {
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
 
+.about-title {
+  margin-bottom: 40px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+.us-title {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.04em;
+}
+
+.about-us-photo {
+  margin-bottom: 40px;
+  max-width: 335px;
+  max-height: 209px;
+}
+
+.about-us-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-us-list {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-us-text {
+  width: 335px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
