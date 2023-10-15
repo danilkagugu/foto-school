@@ -1,13 +1,6 @@
-.position-about-us {
-  display: flex;
-  flex-direction: column;
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
 .about-title {
   margin-bottom: 40px;
-  color: #fff;
+  text-transform: capitalize;
   font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
@@ -16,35 +9,84 @@
 }
 
 .us-title {
-  color: #bea69e;
-  font-family: DM Sans;
+  color: var(--c-light-brown);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.04em;
 }
 
-.about-us-photo {
+.picture-about {
+  height: 209px;
+  width: 335px;
   margin-bottom: 40px;
-  max-width: 335px;
-  max-height: 209px;
 }
 
-.about-us-item {
+.about-us-photo {
+  height: 100%;
+  width: 100%;
+}
+
+.text-about {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 20px;
+  max-width: 335px;
+  margin-bottom: 80px;
 }
 
-.about-us-list {
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
+.text-about-us {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  max-width: 335px;
 }
 
-.about-us-text {
-  width: 335px;
-  padding-left: 20px;
-  padding-right: 20px;
+/* TAB */
+@media screen and (min-width: 768px) {
+  .picture-about {
+    height: 340px;
+    width: 704px;
+    margin-bottom: 50px;
+  }
+
+  .text-about {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    max-width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .text-about-us {
+    font-size: 16px;
+    line-height: 1.25;
+  }
+}
+
+/* DESK 1280*/
+@media screen and (min-width: 1280px) {
+  .about-content {
+    display: flex;
+  }
+
+  .picture-about {
+    height: 260px;
+    width: 488px;
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+  .first {
+    max-width: 268px;
+  }
+
+  .second {
+    max-width: 264px;
+  }
+
+  .text-about {
+    margin-bottom: 150px;
+  }
 }
