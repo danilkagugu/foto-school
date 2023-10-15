@@ -6,45 +6,42 @@
     }
 }
 
-/* Не знаю що не так із фоновим png коли добавляю версію 2х воно показує не коректно.
-Будь ласка спробуй перевірити це сам, я залашила їх знизу потрібно тільки витягнути їх з коментаря */
-
 .footer {
     background-image: url(../img/footer/footer-grap_mob-min.png);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-/* @media only screen and (min-resolution: 192dpi) {
+@media only screen and (min-resolution: 192dpi) {
     .footer {
       background-image: url(../img/footer/footer-grap_mob@2x-min.png);
     }
-} */
+}
   
 @media screen and (min-width: 768px) {
     .footer {
-      max-width: 768px;
       background-image: url(../img/footer/footer-grap_tab-min.png);
     }
 }
   
-/* @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
     .footer {
       background-image: url(../img/footer/footer-grap_tab@2x-min.png);
     }
-} */
+}
   
 @media screen and (min-width: 1158px) {
     .footer {
-      max-width: 1440px;
       background-image: url(../img/footer/footer-grap_desc1280-min.png);
     }
 }
   
-/* @media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
     .footer {
       background-image: url(../img/footer/footer-grap_desc1280@2x-min.png);
     }
-} */
+}
 
 .footer-div {
     display: inline-table;
