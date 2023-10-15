@@ -1,32 +1,60 @@
-ul {
-    list-style: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding-left: 0;
+@media screen and (min-width: 768px) {
+    .container-footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 }
 
-a {
-    text-decoration: none;
-}
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-/* Чи можу я прописувати ul/a/p самостійно 
-і чи це не буде впливати на роботу в інших? */
+/* Не знаю що не так із фоновим png коли добавляю версію 2х воно показує не коректно.
+Будь ласка спробуй перевірити це сам, я залашила їх знизу потрібно тільки витягнути їх з коментаря */
 
 .footer {
-    background-image: url(../img/graphic_header_hero/Graphic_mob.png);
+    background-image: url(../img/footer/footer-grap_mob-min.png);
     background-position: center;
 }
 
-/* Виправити фото потрібні щоб були спеціально для footera */
+/* @media only screen and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/footer/footer-grap_mob@2x-min.png);
+    }
+} */
+  
+@media screen and (min-width: 768px) {
+    .footer {
+      max-width: 768px;
+      background-image: url(../img/footer/footer-grap_tab-min.png);
+    }
+}
+  
+/* @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/footer/footer-grap_tab@2x-min.png);
+    }
+} */
+  
+@media screen and (min-width: 1158px) {
+    .footer {
+      max-width: 1440px;
+      background-image: url(../img/footer/footer-grap_desc1280-min.png);
+    }
+}
+  
+/* @media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .footer {
+      background-image: url(../img/footer/footer-grap_desc1280@2x-min.png);
+    }
+} */
 
 .footer-div {
     display: inline-table;
     margin-top: 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .footer-div {
+        margin-top: 50px;
+    }
 }
 
 .logo-footer {
@@ -35,6 +63,12 @@ p {
 
 .address-footer {
     margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+    .address-footer {
+        margin-top: 25px;
+    }
 }
 
 .contacts {
@@ -52,6 +86,22 @@ p {
     margin-top: 40px;
 }
 
+@media screen and (min-width: 768px) {
+    .social-media {
+        gap: 25px;
+        margin-top: 50px;
+        padding-left: 58px;
+        flex-wrap: nowrap;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .social-media {
+        gap: 50px;
+        padding-left: 285px;
+    }
+}
+
 .media,
 .link-footer {
     color: #FFF;
@@ -66,14 +116,40 @@ p {
     margin-top: 7px;
 }
 
+@media screen and (min-width: 768px) {
+    .li-foot {
+        margin-top: 10px;
+    }
+}
+
 .li-footer {
     margin-top: 14px;
+}
+
+@media screen and (min-width: 1280px) {
+    .li-footer {
+        margin-top: 20px;
+    }
 }
 
 .form-footer {
     display: flex;
     gap: 8px;
     margin-top: 75px; 
+}
+
+@media screen and (min-width: 768px) {
+    .form-footer {
+        margin-top: 50px;
+        padding-left: 59px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .form-footer {
+        padding-left: 137px;
+        gap: 16px;
+    }
 }
 
 .email-input {
@@ -88,6 +164,18 @@ p {
     font-style: normal;
     font-weight: 400;
     line-height: 1.25px;
+}
+
+@media screen and (min-width: 768px) {
+    .email-input {
+        width: 178px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .email-input {
+        width: 216px;
+    }
 }
 
 .button-footer {
@@ -107,8 +195,22 @@ p {
 .div-footer {
     display: flex;
     flex-wrap: wrap;
-    gap: 72px;
     margin-top: 40px;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+    .div-footer {
+        margin-top: 74px;
+        gap: 414px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .div-footer {
+        margin-top: 50px;
+        gap: 790px;
+    }
 }
 
 .p-footer {
@@ -118,4 +220,11 @@ p {
     font-weight: 400;
     line-height: 1.33;
     padding-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .p-footer {
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
 }
