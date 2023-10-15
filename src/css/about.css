@@ -1,15 +1,6 @@
-.container {
-  max-width: 335px;
-}
-
-.position-about-us {
-  display: flex;
-  flex-direction: column;
-}
-
 .about-title {
   margin-bottom: 40px;
-  color: #fff;
+  text-transform: capitalize;
   font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
@@ -18,147 +9,84 @@
 }
 
 .us-title {
-  color: #bea69e;
-  font-family: DM Sans;
+  color: var(--c-light-brown);
   font-size: 28px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: -0.04em;
 }
 
-.about-us-photo {
-  display: block;
-  max-width: 100%;
+.picture-about {
+  height: 209px;
+  width: 335px;
   margin-bottom: 40px;
 }
 
-.about-us-item {
+.about-us-photo {
+  height: 100%;
+  width: 100%;
+}
+
+.text-about {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 20px;
+  max-width: 335px;
+  margin-bottom: 80px;
 }
 
-.about-us-list {
-  margin: 0;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.about-us-text {
-  color: #fff;
-  font-family: DM Sans;
+.text-about-us {
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.2;
+  line-height: 1.29;
   letter-spacing: -0.02em;
+  max-width: 335px;
 }
 
+/* TAB */
 @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-  .about-title {
-    color: #fff;
-    font-family: DM Sans;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: -0.04em;
-  }
-
-  .us-title {
-    color: #bea69e;
-    font-family: DM Sans;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: -0.04em;
-  }
-
-  .about-us-photo {
-    display: block;
-    max-width: 100%;
+  .picture-about {
+    height: 340px;
+    width: 704px;
     margin-bottom: 50px;
   }
 
-  .about-us-item {
+  .text-about {
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
     align-items: flex-start;
+    flex-direction: row;
     gap: 40px;
+    max-width: 100%;
+    margin-bottom: 100px;
   }
 
-  .about-us-list {
-    width: 280px;
-  }
-
-  .about-us-text {
-    color: #fff;
-    font-family: DM Sans;
+  .text-about-us {
     font-size: 16px;
-    font-weight: 400;
     line-height: 1.25;
-    letter-spacing: -0.02em;
   }
 }
 
+/* DESK 1280*/
 @media screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-
-  .position-about-us {
+  .about-content {
     display: flex;
-    flex-direction: row;
   }
 
-  .about-title {
-    color: #fff;
-    font-family: DM Sans;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: -0.04em;
+  .picture-about {
+    height: 260px;
+    width: 488px;
+    margin-bottom: 0;
+    margin-right: 40px;
+  }
+  .first {
+    max-width: 268px;
   }
 
-  .us-title {
-    color: #bea69e;
-    font-family: DM Sans;
-    font-size: 48px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: -0.04em;
-    gap: 50px;
-  }
-  .position-photo {
-    
+  .second {
+    max-width: 264px;
   }
 
-  .about-us-photo {
-  }
-
-  .about-title {
-  }
-
-  .about-us-item {
-    display: flex;
-    align-items: flex-start;
-    padding-left: 50px;
-  }
-
-  .about-us-list {
-    width: 314px;
-    gap: 40px;
-  }
-
-  .about-us-text {
-    color: #fff;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
+  .text-about {
+    margin-bottom: 150px;
   }
 }
