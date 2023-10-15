@@ -100,30 +100,37 @@
 }
 
 .singup-img-box-first {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   width: 180px;
   height: 288px;
   margin-top: auto;
   background-color: var(--c-light-brown);
   border-radius: 1000px;
-  padding: 76px 19px 62px;
 }
 
-.signup-image {
-  max-width: 100%;
+.signup-img-objective {
+  position: relative;
+  top: 76px;
+  right: 19px;
 }
 
 .singup-img-box-second {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: block;
   width: 340px;
   height: 540px;
   background-color: var(--c-bg-color);
   border-radius: 1000px;
+  padding-top: 156px 0 88px;
+  text-align: center;
 }
+
+.signup-img-camera{
+  position: relative;
+  top: 156px;
+  left: 50px;
+
+}
+
 
 @media screen and (max-width: 1279.98px) {
   .singup-block-img {
