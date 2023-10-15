@@ -1,3 +1,7 @@
+.variebles_courses {
+  margin-bottom: 80px;
+}
+
 .courses_title {
   margin-bottom: 20px;
   font-size: 28px;
@@ -92,6 +96,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .variebles_courses {
+    margin-bottom: 100px;
+  }
+
   .courses_cont {
     display: flex;
     align-items: flex-start;
@@ -144,6 +152,10 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .variebles_courses {
+    margin-bottom: 150px;
+  }
+
   .courses_cont {
     display: flex;
     justify-content: space-between;

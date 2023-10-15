@@ -1,240 +1,243 @@
 .hero-wrapper {
-    border-radius: 30px;
-    background: var(--c-bg-color);
-    padding: 40px 20px 0;
+  margin-bottom: 80px;
+  border-radius: 30px;
+  background: var(--c-bg-color);
+  padding: 40px 20px 0;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-wrapper {
-        padding: 64px 32px 0;
-    }
+  .hero-wrapper {
+    margin-bottom: 100px;
+    padding: 64px 32px 0;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-wrapper {
-        padding: 80px 50px 0;
-        display: flex;
-        gap: 20px;
-    }   
+  .hero-wrapper {
+    margin-bottom: 150px;
+    padding: 80px 50px 0;
+    display: flex;
+    gap: 20px;
+  }
 }
 
 .hero-title {
-    font-size: 40px;
-    font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: -0.04em;
-    margin-bottom: 20px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-title {
-        width: 517px;
-        font-size: 60px;
-        line-height: 1.07;
-    }
+  .hero-title {
+    width: 517px;
+    font-size: 60px;
+    line-height: 1.07;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-title {
-        width: 563px;
-        font-size: 64px;
-        font-weight: 500;
-        line-height: 1.06em;
-    }
+  .hero-title {
+    width: 563px;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1.06em;
+  }
 }
 
 .hero-title-accent {
-    color: var(--c-light-brown);
-    font-size: 40px;
-    font-style: italic;
-    line-height: 1.1;
-    letter-spacing: -0.04em;
+  color: var(--c-light-brown);
+  font-size: 40px;
+  font-style: italic;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-title-accent {
-        font-size: 60px;
-    }
+  .hero-title-accent {
+    font-size: 60px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-title-accent {
-        font-size: 64px;
-    }
+  .hero-title-accent {
+    font-size: 64px;
+  }
 }
 
 .hero-text {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-text {
-        width: 418px;
-    }
+  .hero-text {
+    width: 418px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-text {
-        margin-bottom: 136px;;
-    }
+  .hero-text {
+    margin-bottom: 136px;
+  }
 }
 
 .hero-inner {
-    display: flex;
-    gap: 40px;
-    margin-bottom: 31px;
+  display: flex;
+  gap: 40px;
+  margin-bottom: 31px;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-inner {
-        margin-bottom: 40px;
-    }
-} 
+  .hero-inner {
+    margin-bottom: 40px;
+  }
+}
 
 .hero-users {
-    display: flex;
-    flex-wrap: wrap;
-    width: 109px;
-    align-items: center;
-    align-content: center;
-    gap: 4px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 109px;
+  align-items: center;
+  align-content: center;
+  gap: 4px;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-users {
-        width: 231px;
-        gap: 12px;
-    }
+  .hero-users {
+    width: 231px;
+    gap: 12px;
+  }
 
-    .hero-users-img {
-        width: 54px;
-        height: 54px;
-    }
+  .hero-users-img {
+    width: 54px;
+    height: 54px;
+  }
 }
 
 .hero-users-list {
-    display: flex;
-    position: relative;
-    width: 109px;
+  display: flex;
+  position: relative;
+  width: 109px;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-users-list {
-        width: 137px;
-    }
+  .hero-users-list {
+    width: 137px;
+  }
 }
 
 .hero-users-two {
-    position: absolute;
-    left: 32px;
+  position: absolute;
+  left: 32px;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-users-two {
-        left: 40px;
-    }
+  .hero-users-two {
+    left: 40px;
+  }
 }
 
 .hero-users-three {
-    position: absolute;
+  position: absolute;
 }
 
 .hero-users-one {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 .hero-secondary-text {
-    letter-spacing: -0.04em;
-    width: 67px;
+  letter-spacing: -0.04em;
+  width: 67px;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-secondary-text {
-        font-size: 16px;
-        line-height: 1.25;
-        width: 82px;
-    }
+  .hero-secondary-text {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 82px;
+  }
 }
 
 .hero-reviews {
-    display: flex;
-    gap: 12px;
+  display: flex;
+  gap: 12px;
 }
 
 .icon-wrap {
-    display: flex;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: var(--c-light-brown);
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: var(--c-light-brown);
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
-    .icon-wrap {
-        width: 50px;
-        height: 50px;
-    }
+  .icon-wrap {
+    width: 50px;
+    height: 50px;
+  }
 }
 
 .text-wrap {
-    display: flex;
-    gap: 4px;
-    align-items: center;
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 
 @media screen and (min-width: 768px) {
-    .text-wrap {
-        flex-direction: column;
-        align-items: flex-start;
-    }
+  .text-wrap {
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
 
 .hero-arrow-icon {
-    fill: var(--c-white);
-    justify-content: flex-start;
+  fill: var(--c-white);
+  justify-content: flex-start;
 }
 
 .hero-reviews-text {
-    color: var(--c-light-grey);
-    letter-spacing: -0.04em;
-    margin-bottom: 4px;
+  color: var(--c-light-grey);
+  letter-spacing: -0.04em;
+  margin-bottom: 4px;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-reviews-text {
-        font-size: 16px;
-        line-height: 1.25;
-        letter-spacing: -0.04em;
-    }
+  .hero-reviews-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.04em;
+  }
 }
 
 .hero-users-number {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.13;
-    letter-spacing: -0.04em;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: -0.04em;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-users-number {
-        line-height: 1.25;
-    }
+  .hero-users-number {
+    line-height: 1.25;
+  }
 }
 
 .hero-img {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-img {
-        width: 393px;
-    }
+  .hero-img {
+    width: 393px;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .hero-img {
-        width: 397px;
-    }
+  .hero-img {
+    width: 397px;
+  }
 }

@@ -148,6 +148,19 @@
 .header-menu {
   display: flex;
   gap: 14px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .header-menu {
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .header-menu {
+    margin-bottom: 80px;
+  }
 }
 
 .modal {

@@ -1,5 +1,5 @@
 .sinup-section {
-  padding: 75px 0;
+  margin-bottom: 80px;
 }
 
 .signup-inner {
@@ -124,13 +124,11 @@
   text-align: center;
 }
 
-.signup-img-camera{
+.signup-img-camera {
   position: relative;
   top: 156px;
   left: 50px;
-
 }
-
 
 @media screen and (max-width: 1279.98px) {
   .singup-block-img {
@@ -139,6 +137,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .sinup-section {
+    margin-bottom: 100px;
+  }
+
   .singup-title {
     font-size: 48px;
     line-height: 1.125;
@@ -176,6 +178,9 @@
 }
 
 @media screen and (min-width: 1280px) {
+  .sinup-section {
+    margin-bottom: 150px;
+  }
   .singup-button-send {
     padding: 16px 216px;
     font-size: 18px;

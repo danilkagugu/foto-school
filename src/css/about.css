@@ -1,3 +1,7 @@
+.about-us {
+  margin-bottom: 80px;
+}
+
 .about-title {
   margin-bottom: 40px;
   text-transform: capitalize;
@@ -32,7 +36,6 @@
   flex-direction: column;
   gap: 20px;
   max-width: 335px;
-  margin-bottom: 80px;
 }
 
 .text-about-us {
@@ -45,6 +48,9 @@
 
 /* TAB */
 @media screen and (min-width: 768px) {
+  .about-us {
+    margin-bottom: 100px;
+  }
   .picture-about {
     height: 340px;
     width: 704px;
@@ -57,7 +63,6 @@
     flex-direction: row;
     gap: 40px;
     max-width: 100%;
-    margin-bottom: 100px;
   }
 
   .text-about-us {
@@ -68,6 +73,10 @@
 
 /* DESK 1280*/
 @media screen and (min-width: 1280px) {
+  .about-us {
+    margin-bottom: 150px;
+  }
+
   .about-content {
     display: flex;
   }
@@ -84,9 +93,5 @@
 
   .second {
     max-width: 264px;
-  }
-
-  .text-about {
-    margin-bottom: 150px;
   }
 }
