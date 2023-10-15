@@ -34,6 +34,19 @@
     <footer>
       <load src="partials/footer.html" />
     </footer>
+    <script>
+      const header__button = document.querySelector('.menu-btn');
+      const modal__button_close = document.querySelector('.modal-button-close');
+      const modal = document.querySelector('.modal');
+
+      header__button.addEventListener('click', () => {
+        modal.showModal();
+      });
+
+      modal__button_close.addEventListener('click', () => {
+        modal.close();
+      });
+    </script>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
