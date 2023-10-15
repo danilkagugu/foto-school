@@ -1,184 +1,182 @@
 .sinup-section {
-    padding: 75px 0;
+  padding: 75px 0;
 }
 
 .signup-inner {
-    display: flex;
-    gap: 60px;
+  display: flex;
+  gap: 60px;
 }
 
 .singup-block-form {
-    max-width: 480px;
+  max-width: 480px;
 }
 
 .singup-title {
-    color: var(--c-white);
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
-    margin-bottom: 20px;
+  color: var(--c-white);
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
 }
 
 .singup-span {
-    color: var(--c-light-brown);
+  color: var(--c-light-brown);
 }
 
 .singup-text {
-    max-width: 295px;
-    margin-bottom: 40px;
+  max-width: 295px;
+  margin-bottom: 40px;
 }
 
 .singup-form {
-    display: block;
+  display: block;
 }
 
 .singup-input {
-    width: 100%;
-    height: 46px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    margin-bottom: 14px;
-    background-color: var(--c-bg-color-body);
-    color: var(--c-white);
-    padding: 14px 0 14px 18px;
-    opacity: 0.7;
+  width: 100%;
+  height: 46px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 14px;
+  background-color: var(--c-bg-color-body);
+  color: var(--c-white);
+  padding: 14px 0 14px 18px;
+  opacity: 0.7;
 }
 
 .singup-textarea {
-    width: 100%;
-    min-height: 112px;
-    display: block;
-    background-color: var(--c-bg-color-body);
-    margin-bottom: 40px;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
-    color: var(--c-white);
-    padding-top: 14px;
-    padding-left: 18px;
-    opacity: 0.7;
-    resize: none;
+  width: 100%;
+  min-height: 112px;
+  display: block;
+  background-color: var(--c-bg-color-body);
+  margin-bottom: 40px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--c-white);
+  padding-top: 14px;
+  padding-left: 18px;
+  opacity: 0.7;
+  resize: none;
 }
 
 .singup-button-send {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 14px 127px;
-    border-radius: 12px;
-    border: none;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 1.25;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-    background-color: var(--c-white);
-    transition: background-color 250ms;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 127px;
+  border-radius: 12px;
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  background-color: var(--c-white);
+  transition: background-color 250ms;
 }
 
 .singup-button-send:hover {
-    background-color: var(--c-bg-color);
-    color: var(--c-light-brown);
+  background-color: var(--c-bg-color);
+  color: var(--c-light-brown);
 }
 
 .singup-subtext {
-    color: var(--c-light-grey);
-    font-size: 12px;
-    line-height: 1.33;
+  color: var(--c-light-grey);
+  font-size: 12px;
+  line-height: 1.33;
 }
 
 .singup-subtext-link {
-    text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .singup-block-img {
-    display: flex;
-    max-width: 540px;
-    gap: 20px;
-    padding-bottom: 38px;
+  display: flex;
+  max-width: 540px;
+  gap: 20px;
+  padding-bottom: 38px;
 }
 
 .singup-img-box-first {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 180px;
-    height: 288px;
-    margin-top: auto;
-    background-color: var(--c-light-grey);
-    border-radius: 1000px;
-    padding: 76px 19px 62px;
-    
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: 288px;
+  margin-top: auto;
+  background-color: var(--c-light-brown);
+  border-radius: 1000px;
+  padding: 76px 19px 62px;
 }
 
 .signup-image {
-    max-width: 100%;  
+  max-width: 100%;
 }
 
 .singup-img-box-second {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 340px;
-    height: 540px;
-    background-color: var(--c-bg-color);
-    border-radius: 1000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  height: 540px;
+  background-color: var(--c-bg-color);
+  border-radius: 1000px;
 }
 
 @media screen and (max-width: 1279.98px) {
-.singup-block-img {
+  .singup-block-img {
     display: none;
-        }
+  }
 }
 
 @media screen and (min-width: 768px) {
-    .singup-title {
-        font-size: 48px;
-        line-height: 1.125;
-    }
-       
-    .singup-text {
-        max-width: 100%;
-        font-size: 16px;
-        line-height: 1.25;
-    }
-      
-    .singup-input {
-        height: 60px;
-        font-size: 16px;
-        line-height: 1.25;
-        padding: 20px 0 20px 18px;
-    }
-    
-    .singup-textarea {
-        min-height: 120px;
-        font-size: 16px;
-        line-height: 1.25;
-    }
-    
-    .singup-button-send {
-        padding: 16px 216px;
-        font-size: 18px;
-        line-height: 1.556;
-    }
-    
-    .singup-subtext {
-        font-size: 14px;
-        line-height: 1.286;
-    }
+  .singup-title {
+    font-size: 48px;
+    line-height: 1.125;
+  }
+
+  .singup-text {
+    max-width: 100%;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .singup-input {
+    height: 60px;
+    font-size: 16px;
+    line-height: 1.25;
+    padding: 20px 0 20px 18px;
+  }
+
+  .singup-textarea {
+    min-height: 120px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .singup-button-send {
+    padding: 16px 216px;
+    font-size: 18px;
+    line-height: 1.556;
+  }
+
+  .singup-subtext {
+    font-size: 14px;
+    line-height: 1.286;
+  }
 }
 
 @media screen and (min-width: 1280px) {
-    .singup-button-send {
-        padding: 16px 216px;
-        font-size: 18px;
-        line-height: 1.556;
-    }
+  .singup-button-send {
+    padding: 16px 216px;
+    font-size: 18px;
+    line-height: 1.556;
+  }
 
-    .singup-subtext {
-        font-size: 14px;
-        line-height: 1.286;
-    }
+  .singup-subtext {
+    font-size: 14px;
+    line-height: 1.286;
+  }
 }
