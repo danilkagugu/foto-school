@@ -1,35 +1,77 @@
-<section>
-    <div class="container"> 
-        <h2 class="singup-title">Sign
-            <span class="singup-span">Up</span>
-        </h2>
-        <p class="singup-text">
-            Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.
-        </p>
-        <form class="singup-form">
-            <input 
-                class="singup-input" 
-                name="user-name" 
-                type="text" 
-                placeholder="Enter your name"
-                pattern="[A-Za-z]{3,}">
-            <input 
-                class="singup-input"
-                name="user-email" 
-                type="email" 
-                placeholder="Enter your email" 
-                pattern="[A-Za-z]{3,}">
-            <textarea
-                class="singup-textarea"
-                name="message" 
-                placeholder="Message">
-            </textarea>
-            <button class="singup-button-send" type="submit">Send</button>
-        </form>
+<section id="sinup-section">
+    <div class="container signup-inner"> 
+        <div class="singup-block-form">
+            <h2 class="singup-title">Sign
+                <span class="singup-span">Up</span>
+            </h2>
+            <p class="singup-text">
+                Please use the form below to contact us. Enter your name, email, and message and we'll get back to you shortly.
+            </p>
+            <form class="singup-form">
+                <label for="user-name"></label>
+                <input 
+                    class="singup-input" 
+                    name="user-name" 
+                    id="user-name"
+                    type="text" 
+                    placeholder="Enter your name"
+                    pattern="[A-Za-z]{3,}">
+                <label for="user-email"></label>    
+                <input 
+                    class="singup-input"
+                    name="user-email"
+                    id="user-email" 
+                    type="email" 
+                    placeholder="Enter your email" 
+                    pattern="[A-Za-z]{3,}">
+                <label for="message"></label>
+                <textarea
+                    class="singup-textarea"
+                    name="message" 
+                    id="message"
+                    placeholder="Message"
+                ></textarea>
+                <button class="singup-button-send" type="submit">Send</button>
+            </form>
 
-        <p class="singup-subtext">By clicking on “Send” button, you agree to our 
-            <a class="singup-subtext-link" href="#">Privacy Policy,</a>
-            and allow Promodo to use this information for marketing purposes.
-        </p>
+            <p class="singup-subtext">By clicking on “Send” button, you agree to our 
+                <a class="singup-subtext-link" href="#">Privacy Policy,</a>
+                and allow Promodo to use this information for marketing purposes.
+            </p>
+        </div>
+        <div class="singup-block-img">
+            <div class="singup-img-box-first">
+                <picture>
+                    <source 
+                        media="(min-width: 1280px)" 
+                        srcset="./img/signup/photo_desk1280.png 1x,
+                            ./img/signup/photo_desk1280@2x.png 2x" />
+                    <source 
+                        media="(min-width: 1440px)" 
+                        srcset="./img/signup/photo_desk1440.png 1x ,
+                                ./img/signup/photo_desk1440@2x.png 2x" />
+                    <img class="signup-image" 
+                            src="./img/signup/photo_desk1440.png" 
+                            alt="foto objective" width="163" height="154" />
+                </picture>
+            </div>
+            <div class="singup-img-box-second">
+                <picture>
+                    <source 
+                        media="(min-width: 1280px)" 
+                        srcset="./img/signup/video-camera_desk1280.png 1x,
+                                ./img/signup/video-camera_desk1280@2x.png 2x" />
+                    <source 
+                        media="(min-width: 1440px)" 
+                        srcset="./img/signup/video-camera_desk1440.png 1x ,
+                                ./img/signup/video-camera_desk1440@2x.png 2x" />
+                    <img class="signup-image" 
+                            src="./img/signup/video-camera_desk1440.png" 
+                            alt="foto video-camera" width="254" height="313" />
+                </picture>
+            </div>
+        </div>
+
+
     </div>
 </section>

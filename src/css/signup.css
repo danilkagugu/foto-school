@@ -1,3 +1,13 @@
+.signup-inner {
+    display: flex;
+    gap: 60px;
+}
+
+.singup-block-form {
+    max-width: 480px;
+    min-width: 320px;
+}
+
 .singup-title {
     color: var(--c-white);
     font-size: 28px;
@@ -21,7 +31,7 @@
 }
 
 .singup-input {
-    min-width: 335px;
+    min-width: 100%;
     height: 46px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
@@ -37,7 +47,7 @@
 }
 
 .singup-textarea {
-    width: 335px;
+    min-width: 100%;
     min-height: 112px;
     display: block;
     background-color: var(--c-bg-color-body);
@@ -55,17 +65,25 @@
 }
 
 .singup-button-send {
+    min-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 335px;
     padding: 14px 127px;
     border-radius: 12px;
+    border: none;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.25;
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin: 0 auto 20px;
+    background-color: var(--c-white);
+    transition: background-color 250ms;
+}
+
+.singup-button-send:hover {
+    background-color: var(--c-bg-color);
+    color: var(--c-light-brown);
 }
 
 .singup-subtext {
@@ -77,4 +95,39 @@
 
 .singup-subtext-link {
     text-decoration-line: underline;
+}
+
+.singup-block-img {
+    display: none;
+    max-width: 540px;
+    gap: 20px;
+    padding-bottom: 38px;
+}
+
+.singup-img-box-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 288px;
+    margin-top: auto;
+    background-color: var(--c-light-grey);
+    border-radius: 1000px;
+    padding: 76px 19px 62px;
+    
+
+}
+
+.signup-image {
+    
+}
+
+.singup-img-box-second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 340px;
+    height: 540px;
+    background-color: var(--c-bg-color);
+    border-radius: 1000px;
 }
