@@ -19,8 +19,8 @@
       rel="stylesheet"
     />
     
-    <script type="module" crossorigin src="/foto-school/assets/index-60aee522.js"></script>
-    <link rel="stylesheet" href="/foto-school/assets/index-4afd8d5f.css">
+    <script type="module" crossorigin src="/foto-school/assets/index-5010f933.js"></script>
+    <link rel="stylesheet" href="/foto-school/assets/index-96008d64.css">
   </head>
   <body>
     <div class="bc-img">
@@ -211,44 +211,59 @@
 
     </div>
     
-    <section>
-  <div class="container">
-    <div class="position-about-us">
-      <h2 class="about-title">About<span class="us-title">Us</span></h2>
-      <img
-        class="about-us-photo"
-        srcset="/foto-school/assets/camera-about_mob-min-c3d03b1b.png 1x ./img/about/camera-about_mob@2x-min.png 2x"
-        src="../img/about/camera-about_mob-min.png"
-        alt="camera-about"
-      />
-      <div>
-        <ul class="about-us-item">
-          <li class="about-us-list">
-            <p class="about-us-text">
-              Our photography school is designed to teach you everything you
-              need to know about this magical art. Regardless of your experience
-              or skill level, we offer a wide range of courses to suit your
-              needs and interests. Our teaching team consists of experienced
-              photographers who have many years of experience in this field.
-              They strive not only to share their knowledge, but also to inspire
-              you to develop and express your unique creativity.
-            </p>
-          </li>
-          <li class="about-us">
-            <p class="about-us-text">
-              Our courses cover a wide range of topics, from the basics of
-              photography and equipment use to professional image processing and
-              creating impressive compositions. You will have the opportunity to
-              learn the technical aspects of photography, discover your own
-              style and develop your own visual language.
-            </p>
-          </li>
-        </ul>
-      </div>
+    <section class="about-us container">
+  <h2 id="about-us" class="about-title">
+    about <span class="us-title">us</span>
+  </h2>
+  <div class="about-content">
+    <div class="picture-about">
+      <picture>
+        <source
+          media="(max-width: 767.98px)"
+          srcset="
+            .\img\about\camera-about_mob-min.png    1x,
+            .\img\about\camera-about_mob@2x-min.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            .\img\about\camera-about_tab-min.png    1x,
+            .\img\about\camera-about_tab@2x-min.png 2x
+          "
+        />
+        <source
+          media="(min-width: 1280px)"
+          srcset="/foto-school/assets/camera-about_desk1280-min-0ed1a93b.png 1x, /foto-school/assets/camera-about_desk1280@2x-min-d32a5d32.png 2x"
+        />
+        <img
+          class="about-us-photo"
+          src="../img/about/camera-about_mob-min.png"
+          alt="camera"
+          width="209"
+        />
+      </picture>
+    </div>
+    <div class="text-about">
+      <p class="text-about-us first">
+        Our photography school is designed to teach you everything you need to
+        know about this magical art. Regardless of your experience or skill
+        level, we offer a wide range of courses to suit your needs and
+        interests. Our teaching team consists of experienced photographers who
+        have many years of experience in this field. They strive not only to
+        share their knowledge, but also to inspire you to develop and express
+        your unique creativity.
+      </p>
+      <p class="text-about-us second">
+        Our courses cover a wide range of topics, from the basics of photography
+        and equipment use to professional image processing and creating
+        impressive compositions. You will have the opportunity to learn the
+        technical aspects of photography, discover your own style and develop
+        your own visual language.
+      </p>
     </div>
   </div>
 </section>
-
     <section class="variebles_courses">
   <div class="container">
     <div class="courses_cont">
