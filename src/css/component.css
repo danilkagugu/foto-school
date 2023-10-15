@@ -4,6 +4,10 @@
   border: 0px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'DM Sans', sans-serif;
   background-color: var(--c-bg-color-body);
