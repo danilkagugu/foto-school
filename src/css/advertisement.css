@@ -1,0 +1,43 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.advertisement {
+  color: #BEA69E;
+font-family: DM Sans;
+font-size: 59px;
+font-style: normal;
+font-weight: 400;
+line-height: 64px; 
+letter-spacing: -1.18px;
+text-transform: uppercase;
+}
+
+.advertisement-inner {
+    display: flex;
+    width: 1280px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.advertisement-line {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 64px;
+    letter-spacing: -1.18px;
+    text-transform: uppercase;
+}
+
+.text-masters{
+    color: #BEA69E;
+}
+.text-skills{
+    color: #BEA69E;
+}
