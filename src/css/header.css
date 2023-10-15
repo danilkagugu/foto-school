@@ -2,13 +2,7 @@
   display: flex;
 }
 
-.container {
-  width: 1280px;
-  margin-left: 100px;
-}
-
 .bloc-header {
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,19 +13,23 @@
   align-items: center;
   width: 822px;
   height: 60px;
-  flex-shrink: 0;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: #121212;
   margin-right: 20px;
 }
+
+.a-svg {
+  display: block;
+  width: 123px;
+  height: 16px;
+  margin-left: 50px;
+  margin-right: 97px;
+}
+
 .svg-header {
   width: 123px;
   height: 16px;
-  flex-shrink: 0;
-  margin-left: 50px;
-  margin-right: 97px;
-  fill: #fff;
 }
 
 .navigation-header {
@@ -81,6 +79,76 @@
 .svg-foto {
   display: none;
 }
+
+.button {
+  border: none;
+  box-shadow: none;
+  padding: 0 0;
+  background-color: transparent;
+}
+
+.close-mob-menu {
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 416px;
+  background-color: transparent;
+  border: none;
+}
+
+.mob-menu-list {
+  display: grid;
+  margin-top: 180px;
+  margin-left: 64px;
+  gap: 28px;
+}
+
+.mob-menu-link {
+  color: #121212;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.mob-menu-link:hover,
+.mob-menu-link:focus {
+  font-weight: 700;
+}
+
+.mob-menu {
+  width: 100%;
+  height: 900px;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 250ms ease-in-out;
+}
+
+.mob-menu.is-open {
+  transform: translateX(0);
+  margin-left: 520px;
+  width: 480px;
+}
+
+.color {
+  background-color: #bea69e;
+  padding: 0;
+}
+
+.images {
+  background-image: url(../img/modal_menu/photo-menu6_tab-min.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  border: none;
+}
+
 @media screen and (min-width: 1440px) {
   .container {
     max-width: 1440px;
@@ -99,7 +167,7 @@
   }
 }
 
-@media screen and (min-width: 769px) and (max-width:1440px) {
+@media screen and (min-width: 769px) and (max-width: 1440px) {
   .container {
     max-width: 1280px;
   }
@@ -159,10 +227,12 @@
 
   .svg-foto {
     display: block;
-    width: 16px;
-    height: 16px;
   }
 
+  .aa .svg-foto:hover,
+  .aa .svg-foto:focus {
+    fill: #bea69e;
+  }
   .aa {
     background-color: #1d1d1d;
     width: 32px;
@@ -174,5 +244,21 @@
   .header-burger {
     display: flex;
     gap: 14px;
+  }
+
+  .close-mob-menu {
+    margin-left: 400px;
+  }
+
+  .mob-menu.is-open {
+    transform: translateX(0);
+    margin-left: 330px;
+    width: 480px;
+  }
+}
+
+@media screen and (max-width: 767.98px) {
+  .sign-up {
+    display: none;
   }
 }
