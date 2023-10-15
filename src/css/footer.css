@@ -1,0 +1,121 @@
+ul {
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Чи можу я прописувати ul/a/p самостійно 
+і чи це не буде впливати на роботу в інших? */
+
+.footer {
+    background-image: url(../img/graphic_header_hero/Graphic_mob.png);
+    background-position: center;
+}
+
+/* Виправити фото потрібні щоб були спеціально для footera */
+
+.footer-div {
+    display: inline-table;
+    margin-top: 40px;
+}
+
+.logo-footer {
+    fill: #FFF;
+}
+
+.address-footer {
+    margin-top: 16px;
+}
+
+.contacts {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.28px;
+}
+
+.social-media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px; 
+    margin-top: 40px;
+}
+
+.media,
+.link-footer {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.li-foot {
+    margin-top: 7px;
+}
+
+.li-footer {
+    margin-top: 14px;
+}
+
+.form-footer {
+    display: flex;
+    gap: 8px;
+    margin-top: 75px; 
+}
+
+.email-input {
+    border-radius: 12px;
+    border: none;
+    width: 267px;
+    height: 60px;
+    padding: 0px 0 0px 18px;
+    background-color: #FFF;
+    color: #121212;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.25px;
+}
+
+.button-footer {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2.4; 
+    border-radius: 12px;
+    border: none;
+    background-color: #1D1D1D;
+    width: 60px;
+    height: 60px;
+}
+
+.div-footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 72px;
+    margin-top: 40px;
+}
+
+.p-footer {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    padding-bottom: 20px;
+}
