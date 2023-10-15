@@ -1,8 +1,10 @@
+.container {
+  max-width: 335px;
+}
+
 .position-about-us {
   display: flex;
   flex-direction: column;
-  margin-top: 80px;
-  margin-bottom: 80px;
 }
 
 .about-title {
@@ -25,9 +27,9 @@
 }
 
 .about-us-photo {
+  display: block;
+  max-width: 100%;
   margin-bottom: 40px;
-  max-width: 335px;
-  max-height: 209px;
 }
 
 .about-us-item {
@@ -44,7 +46,119 @@
 }
 
 .about-us-text {
-  width: 335px;
-  padding-left: 20px;
-  padding-right: 20px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .about-title {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+
+  .us-title {
+    color: #bea69e;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+
+  .about-us-photo {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .about-us-item {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: 40px;
+  }
+
+  .about-us-list {
+    width: 280px;
+  }
+
+  .about-us-text {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+
+  .position-about-us {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-title {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+
+  .us-title {
+    color: #bea69e;
+    font-family: DM Sans;
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+    gap: 50px;
+  }
+  .position-photo {
+    
+  }
+
+  .about-us-photo {
+  }
+
+  .about-title {
+  }
+
+  .about-us-item {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+
+  .about-us-list {
+    width: 314px;
+    gap: 40px;
+  }
+
+  .about-us-text {
+    color: #fff;
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+  }
 }

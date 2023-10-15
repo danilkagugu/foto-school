@@ -2,12 +2,44 @@
   <div class="container">
     <div class="position-about-us">
       <h2 class="about-title">About<span class="us-title">Us</span></h2>
-      <img
-        class="about-us-photo"
-        srcset="./img/about/camera-about_mob-min.png 1x ./img/about/camera-about_mob@2x-min.png 2x"
-        src="../img/about/camera-about_mob-min.png"
-        alt="camera-about"
-      />
+      <picture>
+        <!-- Desktop screen -->
+
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/about/camera-about_desk1280-min.png    1x,
+            ./img/about/camera-about_desk1280@2x-min.png 2x
+          "
+          type="image/png"
+        />
+        <!-- Tablet screen -->
+
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/about/camera-about_tab-min.png    1x,
+            ./img/about/camera-about_tab@2x-min.png 2x
+          "
+          type="image/png"
+        />
+        <!-- Mobile screen -->
+
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/about/camera-about_mob-min.png    1x,
+            ./img/about/camera-about_mob@2x-min.png 2x
+          "
+          type="image/png"
+        />
+        <img
+          class="about-us-photo"
+          srcset="./img/about/camera-about_mob-min.png 1x"
+          src="../img/about/camera-about_mob-min.png"
+          alt="camera-about"
+        />
+      </picture>
       <div>
         <ul class="about-us-item">
           <li class="about-us-list">
@@ -21,7 +53,7 @@
               you to develop and express your unique creativity.
             </p>
           </li>
-          <li class="about-us">
+          <li class="about-us-list">
             <p class="about-us-text">
               Our courses cover a wide range of topics, from the basics of
               photography and equipment use to professional image processing and
