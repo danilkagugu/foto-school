@@ -1,5 +1,5 @@
 .sinup-section {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .signup-inner {
@@ -138,7 +138,7 @@
 
 @media screen and (min-width: 768px) {
   .sinup-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   .singup-title {
@@ -179,7 +179,7 @@
 
 @media screen and (min-width: 1280px) {
   .sinup-section {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
   .singup-button-send {
     padding: 16px 216px;

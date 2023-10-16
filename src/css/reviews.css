@@ -1,16 +1,16 @@
 .reviews-section {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 @media (min-width: 768px) {
   .reviews-section {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   .reviews-section {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 }
 
@@ -94,7 +94,7 @@
 @media (min-width: 768px) /*and (max-width: 1279.98px) */ {
   .reviewer-profession {
     font-size: 14px;
-    line-height: 1.28px;
+    line-height: 1.28;
     letter-spacing: -0.28px;
     margin-top: 12px;
   }

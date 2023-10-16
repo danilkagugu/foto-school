@@ -1,69 +1,56 @@
 .ticker {
-    min-width: 320px;
-    margin-bottom: 80px;
-    overflow: hidden;
-    border-top: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    height: 100%;
-  }
-  
-  @media screen and (min-width: 768px) {
-    .ticker {
-      margin-bottom: 100px;
-    }
-  }
-  
-  @media screen and (min-width: 1280px) {
-    .ticker {
-      margin-bottom: 150px;
-    }
-  }
-  
-  .ticker-inner {
-    display: flex;
-  }
-  
+  min-width: 320px;
+  overflow: hidden;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  height: 100%;
+}
+
+.ticker-inner {
+  display: flex;
+}
+
+.ticker-title {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  flex-shrink: 0;
+  padding: 20px 10px;
+  white-space: nowrap;
+  animation-name: marqueeLine;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@media screen and (min-width: 768px) {
   .ticker-title {
-    font-size: 28px;
-    font-weight: 400;
-    line-height: 1.14;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-  
-    flex-shrink: 0;
-    padding: 20px 10px;
-    white-space: nowrap;
-    animation-name: marqueeLine;
-    animation-duration: 8s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    padding: 24px 10px;
+    font-size: 40px;
+    line-height: 1.25;
   }
-  
-  @media screen and (min-width: 768px) {
-    .ticker-title {
-      padding: 24px 10px;
-      font-size: 40px;
-      line-height: 1.25;
-    }
+}
+
+@media screen and (min-width: 1280px) {
+  .ticker-title {
+    font-size: 59px;
+    line-height: 1.08;
   }
-  
-  @media screen and (min-width: 1280px) {
-    .ticker-title {
-      font-size: 59px;
-      line-height: 1.08;
-    }
+}
+
+@keyframes marqueeLine {
+  from {
+    transform: translateX(0);
   }
-  
-  @keyframes marqueeLine {
-    from {
-      transform: translateX(0);
-    }
-  
-    to {
-      transform: translateX(-100%);
-    }
+
+  to {
+    transform: translateX(-100%);
   }
-  
-  .ticker-title-span {
-    color: var(--c-light-brown);
-  }
+}
+
+.ticker-title-span {
+  color: var(--c-light-brown);
+}

@@ -1,16 +1,16 @@
 .our-mentors {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 @media screen and (min-width: 768px) {
   .our-mentors {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .our-mentors {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 }
 

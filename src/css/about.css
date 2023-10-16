@@ -1,5 +1,5 @@
 .about-us {
-  margin-bottom: 80px;
+  padding: 80px 0;
 }
 
 .about-title {
@@ -49,7 +49,7 @@
 /* TAB */
 @media screen and (min-width: 768px) {
   .about-us {
-    margin-bottom: 100px;
+    padding: 100px 0;
   }
   .picture-about {
     height: 340px;
@@ -74,7 +74,7 @@
 /* DESK 1280*/
 @media screen and (min-width: 1280px) {
   .about-us {
-    margin-bottom: 150px;
+    padding: 150px 0;
   }
 
   .about-content {

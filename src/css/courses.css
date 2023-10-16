@@ -1,5 +1,5 @@
 .variebles_courses {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 
 .courses_title {
@@ -35,6 +35,7 @@
   gap: 20px;
 }
 .courses_item {
+  padding: 28px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);
@@ -42,7 +43,7 @@
 .card-nav {
   display: flex;
   justify-content: space-between;
-  margin: 28px 28px;
+  margin-bottom: 28px;
 }
 .course-numeration {
   width: 18px;
@@ -78,26 +79,20 @@
 .course_name {
   color: var(--c-white);
   width: 279px;
-  padding-left: 28px;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
-  padding-right: 28px;
-  padding-left: 28px;
   margin-bottom: 168px;
 }
 
 .course_detals {
-  margin-bottom: 28px;
-  padding-left: 28px;
-  padding-right: 28px;
   line-height: 1.28;
   letter-spacing: -0.28px;
 }
 
 @media screen and (min-width: 768px) {
   .variebles_courses {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 
   .courses_cont {
@@ -131,29 +126,26 @@
     flex-wrap: wrap;
   }
   .courses_item {
+    padding: 32px;
     flex-basis: calc((100% - 20px) / 2);
   }
   .card-nav {
-    margin: 32px 32px;
+    margin-bottom: 32px;
   }
   .course_name {
     max-width: 265px;
-    padding-left: 32px;
     margin-bottom: 180px;
   }
   .course_detals {
     font-size: 16px;
     line-height: 1.25;
     letter-spacing: -0.32px;
-    margin-bottom: 32px;
-    padding-left: 32px;
-    padding-right: 32px;
   }
 }
 
 @media screen and (min-width: 1280px) {
   .variebles_courses {
-    margin-bottom: 150px;
+    padding-bottom: 150px;
   }
 
   .courses_cont {
@@ -167,7 +159,6 @@
 
   .courses_list {
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 20px;
   }
