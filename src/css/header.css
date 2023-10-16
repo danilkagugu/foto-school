@@ -1,3 +1,6 @@
+.header-inner {
+  padding-top: 20px;
+}
 .nav-list {
   width: 100%;
   display: flex;
