@@ -59,6 +59,7 @@
   line-height: 1.2;
   text-transform: capitalize;
   margin-bottom: 4px;
+  margin-top: 16px;
 }
 
 @media screen and (min-width: 768px) {
