@@ -112,6 +112,17 @@
   font-weight: 400;
   line-height: normal;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.media:hover,
+.media:focus {
+  color: var(--c-light-brown);
+}
+
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--c-light-brown);
 }
 
 .li-foot {
