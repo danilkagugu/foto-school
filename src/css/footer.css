@@ -33,13 +33,13 @@
   }
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .footer {
     background-image: url(../img/footer/footer-grap_desc1280-min.png);
   }
 }
 
-@media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+@media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
   .footer {
     background-image: url(../img/footer/footer-grap_desc1280@2x-min.png);
   }

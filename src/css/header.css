@@ -265,35 +265,38 @@
 /* BC-IMG */
 
 .bc-img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   background-image: url(../img/graphic_header_hero/graphic_mob.png);
 }
 
 @media only screen and (min-resolution: 192dpi) {
-  .bc-image {
+  .bc-img {
     background-image: url(../img/graphic_header_hero/graphic_mob@2x.png);
   }
 }
 
-@media only screen and (min-width: 768px) {
-  .bc-image {
+@media screen and (min-width: 768px) {
+  .bc-img {
     background-image: url(../img/graphic_header_hero/graphic_tab.png);
   }
 }
 
 @media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .bc-image {
+  .bc-img {
     background-image: url(../img/graphic_header_hero/graphic_tab@2x.png);
   }
 }
 
-@media only screen and (min-width: 1280px) {
-  .bc-image {
+@media screen and (min-width: 1280px) {
+  .bc-img {
     background-image: url(../img/graphic_header_hero/graphic_desk1280.png);
   }
 }
 
 @media only screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .bc-image {
+  .bc-img {
     background-image: url(../img/graphic_header_hero/graphic_desk1280@2x.png);
   }
 }
